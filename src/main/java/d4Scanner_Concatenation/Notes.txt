@@ -1,0 +1,29 @@
+
+
+
+//Type Casting
+//Used for converting one primitive data type to another primitive data type
+//1) Autowidening Casting: If you assign a smaller data tyoe to a larger data type
+Then java converts the data type automatically
+
+//2)Explicit Narrowing Casting: If you assign a larger data type to smaller datat type
+    then java can not convert to data type automatically to the smaller one
+    You have to convert mannually
+
+
+//Wrapper Class
+//Autoboxing and unboxing (primitive to Wrapper)
+//Why are we using wrapper class?? ==> to reach useful methods.....
+
+ primitive data         wrapper class
+ byte                   Byte       autoboxing
+
+
+
+//Scanner
+When you need to get the data externally, you need to create parameters
+bcs data can be accepted from outside through the parameters
+
+Parameters are defined in class
+with constructor or Method parenthesis
+

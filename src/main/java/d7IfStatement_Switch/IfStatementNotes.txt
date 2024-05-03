@@ -1,0 +1,27 @@
+
+
+Conditional Statement
+
+1) If Statement
+
+ //We use conditional statements in decision making...
+
+
+  if(condition/boolean){ body to execute when condition is true}
+
+  // we specify one single scenario or condition in if statement
+
+  // but for the possibilities: we can use else part to connect with other if statements
+
+  // if else
+  if (condition/boolean){
+
+       body to execute when the condition is true
+  }  else {
+
+        when condition is false, else body is executed as alternative }
+
+
+         //What if i want to specify many scenarios
+
+         // if we have many scenarios, we are using if - else if - else if ...... - else......
