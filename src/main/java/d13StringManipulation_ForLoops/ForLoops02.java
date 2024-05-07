@@ -8,6 +8,7 @@ public class ForLoops02 {
         //Example; in the given string, print all the characters before "m" on the console
 
         String s = "Miami";
+
         //Mia
         //use "break" keyword....
 
@@ -25,8 +26,8 @@ public class ForLoops02 {
 
                              if (ch == 'm'){
                                  break;
-
                              }
+
 
 
 
