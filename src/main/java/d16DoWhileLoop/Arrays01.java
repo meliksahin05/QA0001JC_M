@@ -26,7 +26,7 @@ public class Arrays01 {
         String[] names = new String[4]; // most common used. We recommend this type....
 
         //2nd way
-        String names1 [] = new String[4];
+        String names1[] = new String[4];
 
 //        System.out.println(names);
 
@@ -38,19 +38,19 @@ public class Arrays01 {
 
         //Example; Create an array with int data type and name it notes.... store 5 datas...
 
-       int  [] notes = new int[5];
+        int[] notes = new int[5];
 
         System.out.println(Arrays.toString(notes));
 
         //Example; Create an array with Integer (wrapper class) data type for 10 elements...
 
-        Integer [] number = new Integer[10];
+        Integer[] number = new Integer[10];
 
         System.out.println(Arrays.toString(number));
 
         //Example; create an array to store 3 names in it....
 
-        String [] firstNames = new String[3];
+        String[] firstNames = new String[3];
 
         System.out.println(Arrays.toString(firstNames)); // [null, null, null]
 
@@ -62,13 +62,50 @@ public class Arrays01 {
 
         firstNames[1] = "Mary";
         firstNames[2] = "Jim";
-        firstNames[3] = "Alex";
 
         System.out.println(Arrays.toString(firstNames));
 
+        //Example; Create an array for 5 city names, assign the cities and print on the console....
+
+        //1) Create an array
+        String[] cities = new String[5];
+
+        //2) add/assign the name of cities
+
+        cities[0] = "Istanbul";
+        cities[1] = "Denizli";
+        cities[2] = "Izmir";
+        cities[3] = "New York";
+        cities[4] = "Paris";
+
+        System.out.println(Arrays.toString(cities));
+
+        System.out.println("===========================================");
+
+        //Example; print the cities one by one on the console....
+
+        for (int i = 0; i < cities.length; i++) {
+
+            System.out.println(cities[i]);
+        }
+
+        System.out.println("===========================================");
+
+        //2.way for each loop (enhanced loop)
+        //in this loop; starting value, condition direction is defined automatically....
+        //but there is only one single direction, from begining to end....
 
 
+        //for(element data types, variable: arrayName/CollectionName){
 
+        //codes
+    //}
 
-    }
+        for (String c: cities){ //[Istanbul, Denizli, Izmir, New York, Paris]
+
+            System.out.println(c);
+        }
+
+        }
+
 }
