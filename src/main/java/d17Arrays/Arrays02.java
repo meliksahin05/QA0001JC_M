@@ -47,6 +47,7 @@ public class Arrays02 {
 
         int[] ages1 = {12,11,14,17,10,13};
 
+
         //Math.max() ==> compares two values and returns greatest one....
         //Math.min() ==> compares two values and return smallest one...
 

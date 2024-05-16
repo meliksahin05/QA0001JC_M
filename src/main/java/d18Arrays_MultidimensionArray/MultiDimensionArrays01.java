@@ -72,7 +72,12 @@ public class MultiDimensionArrays01 {
         langs[0] = new String[]{"Apple", "banana"};
         langs[1] = new String[]{"cat" ,"dog", "bird"};
         langs[2] = new String[]{"java" ,"python", "C", "javascript", "swift"};
-        langs[3] = new String[]{"red" ,"blue"};
+        langs[3] = new String[]{"red" ,"blue", "yellow","red"};
+
+
+
+
+
 
         System.out.println("Arrays.deepToString(langs) = " + Arrays.deepToString(langs)); //[[Apple, banana], [cat, dog, bird], [java, python, C, javascript, swift], [red, blue]]
 
@@ -81,9 +86,9 @@ public class MultiDimensionArrays01 {
         System.out.println("==================================================");
             /*
             Arrays.toString(inner) = [Apple, banana]
- Arrays.toString(inner) = [cat, dog, bird]
- Arrays.toString(inner) = [java, python, C, javascript, swift]
- Arrays.toString(inner) = [red, blue]
+            Arrays.toString(inner) = [cat, dog, bird]
+            Arrays.toString(inner) = [java, python, C, javascript, swift]
+            Arrays.toString(inner) = [red, blue]
              */
 
         for (String [] inner: langs) {//[[Apple, banana], [cat, dog, bird], [java, python, C, javascript, swift], [red, blue]]
