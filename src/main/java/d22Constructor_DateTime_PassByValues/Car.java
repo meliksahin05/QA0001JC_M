@@ -36,8 +36,8 @@ public class Car {
             //3) Then create main method in Car Runner class.....
 
 
-            //6Create a constructor for car class....
-            //What is consturctor?
+            //6  Create a constructor for car class....
+            //   What is consturctor?
             /*
             It is a structure allowing us to create instance/object from class....
             //When we create a class, java is creating constructor in background automatically....
@@ -59,7 +59,7 @@ public class Car {
     //String engineType
 //  boolean sunroof
 
-           public Car (String brand, String model , int year ,String engineType, boolean sunroof) {
+          public  Car (String brand, String model , int year ,String engineType, boolean sunroof) {
 
                this.brand = brand;  // we will assign the new data to local "brand" variable (this.brand)
                //new data will be assigned from Runner class by using class constructor and parameter....
@@ -68,6 +68,8 @@ public class Car {
                this.engineType = engineType;
                this.sunroof = sunroof;
            }
+
+
 
 
            //7)Go to runner class and enter 5 different parameters in the parenthesis of constructor...
@@ -102,5 +104,7 @@ public class Car {
                 ", sunroof=" + sunroof +
                 '}';
     }
+
+
 
 }
