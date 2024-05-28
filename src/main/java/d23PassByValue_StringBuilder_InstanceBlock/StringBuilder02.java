@@ -21,7 +21,7 @@ public class StringBuilder02 {
 
         sb1.append("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"); //13 x appended....
         System.out.println("sb1.length() = " + sb1.length()); //17
-        System.out.println("sb1.capacity() = " + sb1.capacity()); //34   16+default(16) +2;
+        System.out.println("sb1.capacity() = " + sb1.capacity()); //34   16+default(16) +2;    //double default value+2
 
         //After exceeding default capacity, java will provide 16 more and plus 2 capacity....
         //But after that, optimization starts based on the length....
@@ -36,7 +36,7 @@ public class StringBuilder02 {
         System.out.println("==========================================================");
 
         //Can we change the capacity at the begining?
-        StringBuilder sb2 = new StringBuilder(100);
+        StringBuilder sb2 = new StringBuilder();
         //if you type int data in constructor, capacity is defined by the digits....
 
 //        sb2.append("Mice");

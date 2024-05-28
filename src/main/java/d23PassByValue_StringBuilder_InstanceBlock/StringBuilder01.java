@@ -37,6 +37,7 @@ public class StringBuilder01 {
         //StringBuilder(Mutable-Changeable)
         StringBuilder sb1 = new StringBuilder("Pyhton");
 
+
         System.out.println("sb1 = " + sb1);
         sb1.append("!");
         sb1.append("M");
