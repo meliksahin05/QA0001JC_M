@@ -46,10 +46,18 @@ public  class OvrAnimal {
     public void drink(){
         System.out.println("Animals drink");
     }
+    public void tweet(){
+
+        System.out.println("Animals tweet");
+    }
 
     public void price(){
         System.out.println("Macbook price is 1000 Euro");
     }
+
+
+
+
 
 //     public final String name = "melik";
 

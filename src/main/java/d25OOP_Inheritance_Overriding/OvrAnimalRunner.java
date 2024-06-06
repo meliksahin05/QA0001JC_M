@@ -3,12 +3,12 @@ package d25OOP_Inheritance_Overriding;
 public class OvrAnimalRunner {
 
     public static void main(String[] args) {
-//
-//        Bird bird = new Bird();
-//        bird.eat();
-//        bird.drink();
-//        bird.tweet();
-//        bird.feedWithMilk();
+
+        OvrBird bird = new OvrBird();
+        bird.eat();
+        bird.drink();
+        bird.tweet();
+        bird.feedWithMilk();
 
 //        Cat cat = new Cat();
 //        cat.eat();
@@ -23,6 +23,8 @@ public class OvrAnimalRunner {
         dogs.drink();
         dogs.bark();
         dogs.feedWithMilk();
+
+
 
 
 

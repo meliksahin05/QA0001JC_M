@@ -34,10 +34,10 @@ public class MethodCreation02 {
 
     //Example2: Create a method with 3 parameter:
     //Multiply first two parameter and add 3rd parameter to the multiplication....
-
+//        int total = a*b+c;
        public static int multiply(int a, int b, int c){
 
-        int total = a*b+c;
+           int total = a*b+c;
         return total;
        }
 
