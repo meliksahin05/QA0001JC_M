@@ -39,8 +39,8 @@ public class Exceptions01 {
 
         */
         //Aritmethic Exceptions.....
-        divide(10,2);
-          divide2(10,0);
+        divide(10,0);
+//          divide2(10,0);
     }//closing main method here
 
    //first way.. not recommmend.....
@@ -58,17 +58,19 @@ public class Exceptions01 {
     public static void divide2 (int a , int b){
 
 
-        try{
-            System.out.println(a/b);
-            System.out.println("Task inside the try is done");
+         try{
 
-        }catch (ArithmeticException e){
+             System.out.println(a/b);
 
-            System.out.println("Please do not perform division by zero");
-            System.out.println("DONT ENTER ZERO " +e.getMessage());
 
-        }
-        System.out.println("This catch is working after try-catch");
+         }catch (ArithmeticException e){
+
+             System.out.println("Dont enter zero");
+             System.out.println(e.getMessage());
+
+
+         }
+
     }
 
 }

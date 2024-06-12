@@ -23,7 +23,7 @@ public class Exceptions06 {
         try {
             a = str.length();
             System.out.println(a);
-        } catch (NullPointerException e) {
+        } catch (Exception e) {
 
             System.out.println("dont use length method if your container is empty  " + e.getMessage());
 

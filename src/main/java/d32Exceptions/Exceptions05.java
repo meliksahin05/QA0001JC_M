@@ -8,7 +8,7 @@ public class Exceptions05 {
         //Can use catch block more than one after try catch????
 
         int a = 12;
-        int b = 1;
+        int b = 0;
 
         String s = "My Java";
         getCharFromString(s,a,b);

@@ -10,11 +10,12 @@ public class Exceptions7 {
 
       try{
           ages(13);
-          ages(-3);
+          ages(-13);
 
       }catch (IllegalArgumentException e){
           System.out.println("This is illegalArgumentException");
           System.err.println("Exception ;" + e.getMessage());
+
 
       }
     }
