@@ -13,6 +13,79 @@ public class C08_BankAccount {
     // withdraw = 200
     // Test insufficient funds = 2000
 
+    private String accountNumber;
+    private double balance;
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    //Create a method deposit method....
+    public void deposit(double amount){
+
+        if (amount>0){
+
+            balance += amount;
+
+
+        }else{
+            System.out.println("Deposit amount must be positive");
+        }
+    }
+
+    public void withDraw(double amount){
+
+        if(amount<=balance && amount>0){
+
+            balance -= amount;
+
+            System.out.println("Withdraw " + amount);
+            System.out.println("Balance " + balance);
+        }else{
+
+            System.out.println("Insufficient funds or invalid amount"); //error message....
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
