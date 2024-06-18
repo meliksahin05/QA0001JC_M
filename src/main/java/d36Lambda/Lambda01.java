@@ -1,4 +1,4 @@
-package d35Enum_Iterator_Lambda;
+package d36Lambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -45,6 +45,11 @@ used if converted to a Set with entrySet.)
 //        prinElements(nums);
         prinElements2(nums);
 
+        nums.stream().forEach(t -> System.out.println());
+
+//        printEvenNumbers1(nums);
+        printEvenNumbers2(nums);
+
 
     }
 
@@ -58,11 +63,41 @@ used if converted to a Set with entrySet.)
 
     public static void prinElements2(List<Integer> nums){
 
-        nums.forEach(t -> System.out.println(t)); // "t" is variable representing each element of the list
+        nums.stream().forEach( t-> System.out.println(t)); // "t" is variable representing each element of the list
                                                            // coming into the loop. Same like w ....
-
+        System.out.println("===========================");
 
         nums.stream().forEach(t -> System.out.print(t + " "));   //12 9 31 14 9 10 4
+
+
+    }
+
+
+    //Create a method to print the even elements of the list....
+
+    public static void printEvenNumbers1(List<Integer> nums){
+
+        for (Integer w:nums){  ////12 9 31 14 9 10 4
+
+            if (w %2 ==0){
+
+                System.out.print(w+ " ");
+            }
+        }
+
+    }
+
+    //In normal code structures we use If statements for conditions to filter output...
+
+    //In Lambda expressions we use filter() function to create condition and filter output
+
+    public static void printEvenNumbers2(List<Integer> nums){  ////12 9 31 14 9 10 4
+
+
+        // variableName - stream - filter function (condition) - for each function (iterate)
+        //stream() enables developers to use Lambda functions to make code simpler
+
+           nums.stream().filter(t -> t%2 ==0).forEach(t -> System.out.print(t));
 
 
     }

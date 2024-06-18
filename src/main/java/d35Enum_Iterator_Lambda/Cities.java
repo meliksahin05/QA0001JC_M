@@ -100,7 +100,8 @@ public enum Cities {
     KARABÜK(78, "Karabük", "78000"),
     KİLİS(79, "Kilis", "79000"),
     OSMANİYE(80, "Osmaniye", "80000"),
-    DÜZCE(81, "Düzce", "81000");
+    DÜZCE(81, "Düzce", "81000"),
+    Munich(90,"Munichen" , "9000");
 
 
     private final int plateCode;
