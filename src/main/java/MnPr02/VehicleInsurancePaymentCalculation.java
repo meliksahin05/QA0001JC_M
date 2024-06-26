@@ -1,4 +1,4 @@
-package MiniProject02;
+package MnPr02;
 
 import java.util.Scanner;
 

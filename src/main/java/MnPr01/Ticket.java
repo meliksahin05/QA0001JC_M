@@ -1,4 +1,4 @@
-package MiniProject01;
+package MnPr01;
 
 public class Ticket {
 
